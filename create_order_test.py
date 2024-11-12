@@ -33,6 +33,7 @@ def positive_assert(metroStation):
     # Проверяется, что код ответа равен 200
     assert order_by_track_response.status_code == 200
 
+# Ольга Рудакова, 23-я когорта — Финальный проект. Инженер по тестированию плюс
 # Тест на успешное создание заказа
 # Параметр metroStation число
 def test_create_order_get_success_response():
